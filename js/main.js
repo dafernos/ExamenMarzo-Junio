@@ -18,9 +18,9 @@
 		);
 	}
 	let f4 = function(){
-		$parrafito.animate({width:0},1000,
+		$parrafito.animate({width:'toggle'},1000,
 			function(){
-				$parrafito.animate({width:700},1000);
+				$parrafito.animate({height:'toggle'},1000);
 			}
 		);
 	};
